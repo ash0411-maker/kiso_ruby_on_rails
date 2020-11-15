@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+10.times do |n|
+  Member.create!(
+    email: "test#{n + 1}@test.com",
+    full_name: "テスト太郎#{n + 1}",
+    name: "太郎#{n + 1}",
+    number: n + 1,
+    birthday: Faker::Date.between(from: '2014-09-23', to: '2014-09-25'),
+    administrator: Faker::Boolean.boolean
+  )
+end
