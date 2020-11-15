@@ -22,11 +22,11 @@
 
 /*ページ全体*/
 body {
-  backgroundcolor:white;
+  background-color:white;
   color:black;
   margin:0;
   padding:0;
-  font-family:Meiryo,sansserif;
+  font-family: Meiryo, sans-serif;
 }
 
 /*リンク*/
@@ -65,14 +65,14 @@ aside#sidebar {
 
 /*メニューバーのリンク*/
 nav.menubar a{
-  text-decoration:none;
+  text-decoration: none;
 }
 
 /*メニューバーのリンク（未訪問）*/
-nav.menu-bar a:link{color:#ccc;}
+nav.menu-bar a:link{ color:#ccc;}
 
 /*メニューバーのリンク（訪問済）*/
-nav.menu-bar a:visited{color:#ccc;}
+nav.menu-bar a:visited{ color:#ccc;}
 
 
 
